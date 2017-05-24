@@ -1,0 +1,61 @@
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    font-family:"Tahoma";
+    font-size:11px;
+}
+td{
+    font-family: "Tahoma"; 
+	font-size: 11px; 
+	color:#000000;
+	}
+
+.td_top{
+	background-image: url(../images/bg.gif);
+	font-family: "Tahoma";
+	FONT-SIZE: 11px;
+	color:#FFFFFF;
+	padding: 4px;
+	height:23px;
+	border-collapse:collapse;
+	border-top: 1px #98ACC3 solid;
+	border-right: 0px solid;
+	border-bottom: 1px #5088BA solid;
+	border-left: 0px solid;
+}
+
+.td_01{
+    background-color:#F7FBFF;
+	font-family: "Tahoma";
+	FONT-SIZE: 11px; 
+	color:#000000;
+	padding: 4px;
+	border-collapse:collapse;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-bottom: 1px #B3CFE8 solid;
+	border-left: 0px solid;
+}
+.td_02{
+    background-color:#F7FBFF;
+	font-family: "Tahoma";
+	FONT-SIZE: 11px; 
+	color:#000000;
+	padding: 4px;
+	border-collapse:collapse;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	border-bottom: 1px #B3CFE8 solid;
+	border-left: 0px solid;
+}
+
+a:link {font-family: "Tahoma";font-size: 11px;color: #0D5BA1;text-decoration: none;}
+a:active {font-family: "Tahoma";font-size: 11px;color: #000000;text-decoration: none;}
+a:visited {font-family: "Tahoma";font-size: 11px;color: #0D5BA1;text-decoration: none;}
+a:hover {font-family: "Tahoma";font-size: 11px;color: #000000;text-decoration: none;}
+
+
+
+

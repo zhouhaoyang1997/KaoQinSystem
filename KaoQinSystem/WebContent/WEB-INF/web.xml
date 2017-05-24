@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>KaoQinSystem</display-name>
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>servlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SignIn</servlet-name>
+    <servlet-class>servlet.SignIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignIn</servlet-name>
+    <url-pattern>/SignIn</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>UpdatePwd</servlet-name>
+    <servlet-class>servlet.UpdatePwd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePwd</servlet-name>
+    <url-pattern>/UpdatePwd</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CreateDepartServlet</servlet-name>
+    <servlet-class>servlet.CreateDepartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateDepartServlet</servlet-name>
+    <url-pattern>/CreateDepartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Qiandao</servlet-name>
+    <servlet-class>servlet.Qiandao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Qiandao</servlet-name>
+    <url-pattern>/Qiandao</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAllGongGao</servlet-name>
+    <servlet-class>servlet.GetAllGongGao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllGongGao</servlet-name>
+    <url-pattern>/GetAllGongGao</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetSignServlet</servlet-name>
+    <servlet-class>servlet.GetSignServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSignServlet</servlet-name>
+    <url-pattern>/GetSignServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>GetDayOffServlet</servlet-name>
+    <servlet-class>servlet.GetDayOffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetDayOffServlet</servlet-name>
+    <url-pattern>/GetDayOffServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CreatDayOff </servlet-name>
+    <servlet-class>servlet.CreatDayOff </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatDayOff </servlet-name>
+    <url-pattern>/CreatDayOff </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetGongGao </servlet-name>
+    <servlet-class>servlet.GetGongGao </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetGongGao</servlet-name>
+    <url-pattern>/GetGongGao </url-pattern>
+  </servlet-mapping> 
+    <servlet>
+    <servlet-name>CreatChuChai</servlet-name>
+    <servlet-class>servlet.CreatChuChai </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatChuChai</servlet-name>
+    <url-pattern>/CreatChuChai </url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>GetChuChaiServlet</servlet-name>
+    <servlet-class>servlet.GetChuChaiServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetChuChaiServlet</servlet-name>
+    <url-pattern>/GetChuChaiServlet </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>CreatGongGao </servlet-name>
+    <servlet-class>servlet.CreatGongGao  </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatGongGao </servlet-name>
+    <url-pattern>/CreatGongGao  </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteGongGao </servlet-name>
+    <servlet-class>servlet.DeleteGongGao  </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteGongGao </servlet-name>
+    <url-pattern>/DeleteGongGao </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserSearch </servlet-name>
+    <servlet-class>servlet.UserSearch </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSearch</servlet-name>
+    <url-pattern>/UserSearch </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAllDayOffServlet</servlet-name>
+    <servlet-class>servlet.GetAllDayOffServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllDayOffServlet</servlet-name>
+    <url-pattern>/GetAllDayOffServlet </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAllChuChaiServlet</servlet-name>
+    <servlet-class>servlet.GetAllChuChaiServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllChuChaiServlet</servlet-name>
+    <url-pattern>/GetAllChuChaiServlet </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAllJiaBanServlet</servlet-name>
+    <servlet-class>servlet.GetAllJiaBanServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllJiaBanServlet</servlet-name>
+    <url-pattern>/GetAllJiaBanServlet </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>GetJiaBanServlet</servlet-name>
+    <servlet-class>servlet.GetJiaBanServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetJiaBanServlet</servlet-name>
+    <url-pattern>/GetJiaBanServlet </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetChuQin</servlet-name>
+    <servlet-class>servlet.GetChuQin </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetChuQin</servlet-name>
+    <url-pattern>/GetChuQin </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChuQinSearch</servlet-name>
+    <servlet-class>servlet.ChuQinSearch </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChuQinSearch</servlet-name>
+    <url-pattern>/ChuQinSearch </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NewServlet</servlet-name>
+    <servlet-class>servlet.NewServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewServlet</servlet-name>
+    <url-pattern>/NewServlet </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DafOffJudge</servlet-name>
+    <servlet-class>servlet.DafOffJudge </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DafOffJudge</servlet-name>
+    <url-pattern>/DafOffJudge </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>AgreeDayOff</servlet-name>
+    <servlet-class>servlet.AgreeDayOff </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AgreeDayOff</servlet-name>
+    <url-pattern>/AgreeDayOff </url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>GetAllDepartServlet</servlet-name>
+    <servlet-class>servlet.GetAllDepartServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllDepartServlet</servlet-name>
+    <url-pattern>/GetAllDepartServlet </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>DepartSearch</servlet-name>
+    <servlet-class>servlet.DepartSearch </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DepartSearch</servlet-name>
+    <url-pattern>/DepartSearch </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateDepartServlet</servlet-name>
+    <servlet-class>servlet.UpdateDepartServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateDepartServlet</servlet-name>
+    <url-pattern>/UpdateDepartServlet </url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>ChangeRole</servlet-name>
+    <servlet-class>servlet.ChangeRole </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeRole</servlet-name>
+    <url-pattern>/ChangeRole </url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <servlet-name>CreatKaoQinRule</servlet-name>
+    <servlet-class>servlet.CreatKaoQinRule </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatKaoQinRule</servlet-name>
+    <url-pattern>/CreatKaoQinRule </url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <servlet-name>GetKaoQinServlet</servlet-name>
+    <servlet-class>servlet.GetKaoQinServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetKaoQinServlet</servlet-name>
+    <url-pattern>/GetKaoQinServlet </url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <servlet-name>XiaoJia</servlet-name>
+    <servlet-class>servlet.XiaoJia </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XiaoJia</servlet-name>
+    <url-pattern>/XiaoJia </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>servlet.DeleteUser </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/DeleteUser </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserAdvancedSearch</servlet-name>
+    <servlet-class>servlet.UserAdvancedSearch </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAdvancedSearch</servlet-name>
+    <url-pattern>/UserAdvancedSearch </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAllUser</servlet-name>
+    <servlet-class>servlet.GetAllUser </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAllUser</servlet-name>
+    <url-pattern>/GetAllUser </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>servlet.AddUser </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/AddUser </url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>DeleteDepart</servlet-name>
+    <servlet-class>servlet.DeleteDepart </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteDepart</servlet-name>
+    <url-pattern>/DeleteDepart </url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>AdvancedSearch</servlet-name>
+    <servlet-class>servlet.AdvancedSearch </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdvancedSearch</servlet-name>
+    <url-pattern>/AdvancedSearch </url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
